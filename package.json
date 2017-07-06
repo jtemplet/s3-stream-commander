@@ -1,0 +1,29 @@
+{
+  "name": "s3-stream-commander",
+  "version": "1.0.0",
+  "description": "Provides streaming multipart downloads for S3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "S3",
+    "multipart",
+    "stream",
+    "download",
+    "getObject"
+  ],
+  "author": "Jason Templeton",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.0.1",
+    "debug": "^2.2.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.5.3"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "repository": "git@github.com:jtemplet/s3-stream-commander.git"
+}
