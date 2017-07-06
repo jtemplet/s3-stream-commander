@@ -1,6 +1,6 @@
 # s3-stream-commander
   
-Multipart streaming download from S3. Note: Forked from s3-stream-download, added bubbling up of errors and uses 
+Multipart streaming download utility for S3. Note: Forked from s3-stream-download, added bubbling up of errors and uses 
  s3.headObject/getObject to be more performant.
 
 ## Features
